@@ -71,4 +71,4 @@ function asalSayilar(number) {
         if (asalmi) console.log(i)
     }
 }
-asalSayilar(50)
+asalSayilar(50) //1000
