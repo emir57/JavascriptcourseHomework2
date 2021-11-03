@@ -10,11 +10,9 @@ function findPrime(...numbers) {
                 asalMi = false;
             }
         }
-        if (asalMi) {
-            console.log(`asal ${numbers[i]}`)
-        } else {
-            console.log(`asal değil ${numbers[i]}`)
-        }
+        console.log(asalMi == true ?
+            `asal ${numbers[i]}` :
+            `asal değil ${numbers[i]}`)
     }
 }
 findPrime(-123, 365, 5, 3, 24, 21, 34, 6, 4, 2);
