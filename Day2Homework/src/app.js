@@ -43,6 +43,7 @@ arkadasMi(220, 284)
 console.log("************************************************")
 //3
 function mukemmelSayilar() {
+    console.log("Mükemmel Sayılar")
     for (let i = 1; i <= 1000; i++) {
         let total = 0;
         for (let j = 1; j < i; j++) {
@@ -58,8 +59,8 @@ function mukemmelSayilar() {
 mukemmelSayilar()
 console.log("************************************************")
 //4
-function asalSayilar() {
-    for (let i = 1; i <= 1000; i++) {
+function asalSayilar(number) {
+    for (let i = 1; i <= number; i++) {
         let asalmi = true;
         for (let j = 2; j < i; j++) {
             if (i % j == 0) {
@@ -70,4 +71,4 @@ function asalSayilar() {
         if (asalmi) console.log(i)
     }
 }
-asalSayilar()
+asalSayilar(50)
